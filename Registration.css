@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.Register{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid lightpink;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.3);
+    height: 400px;
+    background-color: lightcyan;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-size: 19px;
+    font-style:inherit;
+    text-align: left;
+}
+input{
+    font-size: 17px;
+    outline: 0;
+}
+input#submit{
+    width: 100px;
+padding: 7px;
+font-family: sans-serif;
+border-radius: 3px;
+background-color:black;
+cursor: pointer;
+color: white;
+}
